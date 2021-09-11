@@ -48,6 +48,8 @@ class DataBase:
         cursor = conn.cursor()
         user = cursor.execute(f"SELECT * FROM users WHERE tg_id='{user.tg_id}'")
         user_tuple = user.fetchone()
+        if user_tuple is None:
+            return None
         user = User(tuple_=user_tuple)
         return user
 
