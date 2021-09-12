@@ -76,7 +76,7 @@ def get_document(message):
     except Exception as ex:
         BotHelper.bot.send_message(message.chat.id, f"Something bad just happened! Please check your api key. "
                                           f"Revoke and create again.")
-        BotHelper.bot.send_message(message.chat.id, f"[!] document download error - {ex}")
+        BotHelper.bot.send_message(message.chat.id, f"{ex}")
         print(f"[!] document generation error - {ex}")
 
 
