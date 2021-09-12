@@ -1,11 +1,5 @@
 #!/bin/bash
-cd /Your/Directory/Here
-git clone https://github.com/Smarandii/BGRemoveBot
-ls
-echo -e "Press ENTER to continue..."
-read tmp
 echo -e "Creating a virtual environment..."
-cd BGRemoveBot
 python3.9 -m venv env
 echo -e "Activating..."
 . env/bin/activate
