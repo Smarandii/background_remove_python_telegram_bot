@@ -1,6 +1,7 @@
 # BGRemoveBot
 
 Telegram Bot that uses remove.bg open API
+(does not work in Russia)
 
 # Setup & Installation:
 
