@@ -10,7 +10,7 @@ git clone https://github.com/Smarandii/BGRemoveBot
 cd BGRemoveBot
 ```
 2. Get Bot token from @BotFather & add your token to .env file
-3. Run setup script:
+3. Run linux setup script:
 ```shell
 . install.bin
 ```
